@@ -1,6 +1,6 @@
 .c-home {
+
   .hero-container {
-    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap-reverse;
 
@@ -14,6 +14,8 @@
         margin: 15px 0;
       }
     }
+
+
 
     @include media(">phone") {
       .hero-text {
@@ -97,6 +99,16 @@
       width: 100%;
     }
   
+  }
+
+  .hero-image{
+    width: 103%;
+    height: 100%;
+    object-fit: cover;
+
+    @include media(">tablet") {
+      width: 100%;
+    }
   }
 
   .story-image {

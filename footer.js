@@ -46,7 +46,7 @@ connectedCallback() {
     <a href="/stories.html" class="Navbar__link">Stories</a>
     <a href="/features.html" class="Navbar__link">Features</a>
     <a href="/pricing.html" class="Navbar__link">Pricing</a>
-    <a href="#" class="Navbar__link">Home</a>
+    <a href="/" class="Navbar__link">Home</a>
   </div>
 </div>
 
