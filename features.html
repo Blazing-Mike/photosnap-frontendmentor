@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Features | Photosnap Website Challenge</title>
+    <link rel="stylesheet" href="scss/app.scss" />
+    <script src="header.js" defer></script>
+    <script src="footer.js"></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <main class="c-stories">
+
+      <div class="hero-container">
+        
+        <div class="hero-text perfect-flex">
+          
+          <div class="container">
+            <h1 class="big-heading">Features</h1>
+            <p class="para">
+              We make sure all of our features are designed to be loved by every
+              aspiring and even professional photograpers who wanted to share
+              their stories.
+            </p>
+          </div>
+
+        </div>
+  
+
+        
+        <div class="image-container">
+          <picture>
+            <source
+              srcset="assets/features/desktop/hero.jpg"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/assets/features/tablet/hero.jpg"
+              media="(min-width: 400px)"
+            />
+            <img
+              src="/assets/features/mobile/hero.jpg"
+              alt="hero-image"
+              class="home-image"
+            />
+          </picture>
+          <div class="rectangle"></div>
+        </div>
+      </div>
+
+      <section class="features perfect-flex">
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/responsive.svg"
+            alt="feature responsive"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">100% Responsive</h4>
+            <p class="para-dark">
+              No matter which the device you’re on, our site is fully responsive
+              and stories look beautiful on any screen.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/no-limit.svg"
+            alt="feature no upload limit"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">No Photo Upload Limit</h4>
+            <p class="para-dark">
+              Our tool has no limits on uploads or bandwidth. Freely upload in
+              bulk and share all of your stories in one go.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/embed.svg"
+            alt="feature Available to embed"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">Available to Embed</h4>
+            <p class="para-dark">
+              Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+              videos, Google Maps, and more.
+            </p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/custom-domain.svg"
+            alt="feature Available to embed"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">Custom Domain</h4>
+            <p class="para-dark">
+              Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+              videos, Google Maps, and more.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/boost-exposure.svg"
+            alt="feature Available to embed"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">Boost Your Exposure</h4>
+            <p class="para-dark">
+              Users that viewed your story or gallery can easily get notifed of
+              new and featured stories with our built in mailing list.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/drag-drop.svg"
+            alt="feature Available to embed"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">Drag & Drop Image</h4>
+            <p class="para-dark">
+              Easily drag and drop your image and get beautiful shots everytime.
+              No over the top tooling to add friction to creating stories.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="prefooter">
+        <div class="rectangle">
+        </div>
+        <picture>
+          <source
+            srcset="assets/shared/desktop/bg-beta.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="/assets/shared/desktop/bg-beta.jpg"
+            media="(min-width: 400px)"
+          />
+          <img
+            src="/assets/shared/mobile/bg-beta.jpg"
+            alt="hero-image"
+            class="beta-image"
+          />
+        </picture>
+
+        <div class="text">
+          <h2> We're in Beta. Get your invite today!</h2>
+          <button class="primary-btn">
+            <span> Get an invite </span>
+            <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+          </button>
+        </div>
+
+      </div>
+      <footer-component></footer-component>
+    </main>
+  </body>
+</html>

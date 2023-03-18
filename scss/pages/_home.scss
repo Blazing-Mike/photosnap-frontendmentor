@@ -1,0 +1,295 @@
+.c-home {
+  .hero-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+    .hero-text {
+      align-items: center;
+      padding: 25px;
+      background-color: $black;
+      color: $white;
+
+      p {
+        margin: 15px 0;
+      }
+    }
+
+    @include media(">phone") {
+      .hero-text {
+        width: 63%;
+        padding: 70px 50px;
+
+        .primary-btn {
+          margin: 1rem 0 5rem 0;
+        }
+      }
+      .image-container {
+        width: 34%;
+      }
+    }
+
+    @include media(">tablet") {
+      .hero-text {
+        width: 40%;
+      }
+      .image-container {
+        width: 60%;
+      }
+    }
+  }
+
+  .section_one,
+  .section_two {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .text-container {
+      padding: 25px;
+    }
+  }
+
+  .section_two {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 0px;
+    margin-top: -5px;
+  }
+
+  @include media(">phone") {
+    .section_one,
+    .section_two {
+      justify-content: space-between;
+      gap: 1.5rem;
+      .text-container {
+        width: 58%;
+        padding: 20px 40px;
+      }
+    }
+
+    .image-container {
+      @include media(">phone") {
+        width: 25%;
+      }
+    }
+  }
+
+  @include media(">tablet") {
+    .section_one,
+    .section_two {
+      .text-container {
+        width: 41%;
+      }
+    }
+
+    .image-container {
+      @include media(">tablet") {
+        width: 56%;
+      }
+    }
+  }
+
+  .home-image {
+    width:auto;
+    height: 100%;
+    object-fit: cover;
+
+    @include media(">tablet") {
+      width: 100%;
+    }
+  
+  }
+
+  .story-image {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+  .stories {
+    margin: 0 auto;
+    .story-item {
+      margin-top: -5px;
+      color: $white;
+      .story-text {
+        padding: 0 20px;
+      position: absolute;
+        margin-top: -11rem;
+
+        
+      }
+    }
+  }
+
+  @include media(">phone") {
+    .story-item {
+      color: $white;
+    }
+  }
+
+  .features {
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: first baseline;
+    .feature-item {
+      max-width: 88%;
+      .feature-item__image {
+        margin-bottom: 1.5rem;
+      }
+      .feature-heading {
+        margin: 1rem 0;
+      }
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  @include media(">phone") {
+    .features {
+      padding:80px;
+
+      align-items: first baseline;
+      .feature-item {
+        margin: 0;
+        max-width: 30%;
+      }
+    }
+  }
+
+
+
+
+
+
+
+.c-footer {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 80px;
+  text-align: center;
+  background: $black;
+  color: $white;
+  margin-top: -5px;
+
+  .left {
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    margin-bottom: 5rem;
+  }
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  .social-icon {
+    width: 2rem;
+  }
+  .Navbar__link {
+    font-size: 1.1rem;
+    color: $white;
+    font-weight: 500;
+  }
+
+  .second-right{
+    flex-wrap: wrap;
+  }
+
+  .primary-btn {
+    margin: 1rem 0 1rem 4rem;
+
+  }
+
+  p{
+    font-size: 1.1rem;
+  }
+}
+
+
+@include media(">phone") {
+  .c-footer {
+    text-align: left;
+    align-items: start;
+    justify-content: space-between;
+    gap: 3rem;
+
+    .left {
+      align-items: start;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: space-between;
+    }
+
+    .footer-nav {
+      flex-direction: row;
+      margin-bottom:0;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin: 3rem 0 0 0;
+    }
+
+    .left {
+      justify-content: start;
+    }
+  
+      .second-right{
+        gap: 2rem;
+      }
+    .primary-btn {
+      margin: -1rem 0 rem 0;
+    }
+  }
+
+}
+
+
+
+  @include media(">tablet") {
+    .c-footer {
+
+      .footer-nav {
+        flex-direction: column;
+        margin-bottom:0rem;
+      }
+      .social-icons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin: 7rem 0 0 0;
+      }
+
+      .left {
+        justify-content: start;
+        gap: 5rem;
+      }
+
+      .second-right{
+        gap: 3rem;
+        width: 23rem;
+      }
+      .primary-btn {
+        margin: 0;
+        align-items: start;
+
+        .arrow{
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+

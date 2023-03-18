@@ -1,0 +1,52 @@
+h1, h2{
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+.heading{
+  text-transform: uppercase;
+}
+.bold{
+  font-weight: 900;
+}
+.white{
+  color: $white;
+}
+.small-heading{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.para-dark{
+  color: $black;
+  font-weight: 300;
+  padding: 10px 0;
+  opacity: 0.6;
+}
+
+.para-light{
+  color: $white;
+  font-weight: 300;
+  opacity: 0.9.5;
+}
+
+.para{
+  color: $grey;
+  font-weight: 300;
+  opacity: 60%;
+}
+
+.story-text{
+
+  p{
+    font-size: 1.1rem;
+  }
+
+}
+
+@include media(">=tablet") {
+  h1, h2{
+    font-size: 3.4rem;
+  }
+  .small-heading{
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <link rel="stylesheet" href="scss/app.scss" />
+    <script src="header.js" defer></script>
+    <script src="footer.js"></script>
+  </head>
+  <body>
+    <header-component></header-component>
+
+
+<div class="perfect-flex">
+
+
+    <main class="c-home">
+      <section class="c-home__hero">
+        <div class="hero-container">
+
+          <div class="hero-text perfect-flex">
+            <div class="container">
+            <h1 class="big-heading">Create and share your photo Stories.</h1>
+            <p class="para">
+              Photosnap is a platform for photographers and visual storytellers.
+              We make it easy to share photos, tell stories and connect with
+              others.
+            </p>
+            <button class="primary-btn">
+              <span> Get an invite </span>
+              <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          </div>
+
+          <div class="image-container">
+            <picture>
+            
+              <source
+                srcset="assets/home/desktop/create-and-share.jpg"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="/assets/home/tablet/create-and-share.jpg"
+                media="(min-width: 400px)"
+              />
+              <img
+                src="/assets/home/mobile/create-and-share.jpg"
+                alt="hero-image"
+                class="home-image"
+              />
+            </picture>
+          </div>
+                
+        </div>
+
+        <div class="section_one perfect-flex">
+ 
+
+          <div class="image-container">
+            <picture>
+              <source
+                srcset="assets/home/desktop/beautiful-stories.jpg"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="assets/home/desktop/beautiful-stories.jpg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/assets/home/tablet/beautiful-stories.jpg"
+                media="(min-width:400px)"
+              />
+              <img
+                src="/assets/home/mobile/beautiful-stories.jpg"
+                alt="hero-image"
+                class="story-image"
+              />
+            </picture>
+          </div>
+          <div class="text-container">
+            <h2 class="big-heading">Beautiful stories every time</h2>
+            <p class="para-dark">
+              We provide design templates to ensure your stories look terrific.
+              Easily add photos, text, embed maps and media from other networks.
+              Then share your story with everyone.
+            </p>
+
+            <button class="primary-btn dark-btn">
+              <span> View the stories </span>
+              <img src="/assets/shared/desktop/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="section_two perfect-flex">
+          <div class="text-container">
+            <h2 class="big-heading">Designed for everyone</h2>
+            <p class="para-dark">
+              Photosnap can help you create stories that resonate with your
+              audience. Our tool is designed for photographers of all levels,
+              brands, businesses you name it.
+            </p>
+
+            <button class="primary-btn dark-btn">
+              <span> View the stories </span>
+              <img src="/assets/shared/desktop/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+
+          <div class="image-container">
+            <picture>
+              <source
+                srcset="assets/home/desktop/designed-for-everyone.jpg"
+                media="(min-width: 1024px)"
+              />
+              <source
+                srcset="assets/home/desktop/designed-for-everyone.jpg"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="/assets/home/tablet/designed-for-everyone.jpg"
+                media="(min-width:400px)"
+              />
+              <img
+                src="/assets/home/mobile/designed-for-everyone.jpg"
+                alt="hero-image"
+                class="story-image"
+              />
+            </picture>
+          </div>
+        </div>
+      </section> 
+
+<section class="stories grid">
+        <div class="story-item one">
+          <picture>
+            <source
+              srcset="assets/stories/desktop/mountains.jpg"
+              media="(min-width: 400px)"
+            />
+
+
+            <img
+              src="/assets/stories/mobile/mountains.jpg"
+              alt="hero-image"
+              class="story-image"
+            />
+          </picture>
+
+          <div class="story-text">
+            <h3 class="small-heading">The Mountains</h3>
+            <p class="para-light">by John Appleseed</p>
+            <div class="line-lite"></div>
+            <button class="primary-btn wide-btn">
+              <span> Read Story </span>
+              <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="story-item two">
+          <picture>
+            <source
+              srcset="assets/stories/desktop/cityscapes.jpg"
+              media="(min-width: 400px)"
+            />
+
+            <img
+              src="/assets/stories/mobile/cityscapes.jpg"
+              alt="hero-image"
+              class="story-image"
+            />
+          </picture>
+
+          <div class="story-text">
+            <h3 class="small-heading">Sunset Cityscapes</h3>
+            <p class="para-light">by Benjamin Cruz</p>
+            <div class="line-lite"></div>
+            <button class="primary-btn wide-btn">
+              <span> Read Story </span>
+              <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="story-item three">
+          <picture>
+            <source
+              srcset="assets/stories/desktop/18-days-voyage.jpg"
+              media="(min-width: 400px)"
+            />
+
+            <img
+              src="/assets/stories/mobile/18-days-voyage.jpg"
+              alt="hero-image"
+              class="story-image"
+            />
+          </picture>
+
+          <div class="story-text">
+            <h3 class="small-heading">18 Days Voyage</h3>
+            <p class="para-light">by Alexei Borodin</p>
+            <div class="line-lite"></div>
+            <button class="primary-btn wide-btn">
+              <span> Read Story </span>
+              <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+
+        <div class="story-item four">
+          <picture>
+            <source
+              srcset="assets/stories/desktop/architecturals.jpg"
+              media="(min-width: 400px)"
+            />
+
+            <img
+              src="/assets/stories/mobile/architecturals.jpg"
+              alt="hero-image"
+              class="story-image"
+            />
+          </picture>
+
+          <div class="story-text">
+            <h3 class="small-heading">Architecturals</h3>
+            <p class="para-light">by Samantha Brooke</p>
+            <div class="line-lite"></div>
+            <button class="primary-btn wide-btn">
+              <span> Read Story </span>
+              <img src="/assets/shared/desktop/light-arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section> 
+
+      <section class="features perfect-flex">
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/responsive.svg"
+            alt="feature responsive"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">100% Responsive</h4>
+            <p class="para-dark">
+              No matter which the device you’re on, our site is fully responsive
+              and stories look beautiful on any screen.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/no-limit.svg"
+            alt="feature no upload limit"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">No Photo Upload Limit</h4>
+            <p class="para-dark">
+              Our tool has no limits on uploads or bandwidth. Freely upload in
+              bulk and share all of your stories in one go.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <img
+            src="/assets/features/desktop/embed.svg"
+            alt="feature Available to embed"
+            class="feature-item__image"
+          />
+          <div class="feature__text">
+            <h4 class="feature-heading">Available to Embed</h4>
+            <p class="para-dark">
+              Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+              videos, Google Maps, and more.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    </div>
+
+ <footer-component></footer-component>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

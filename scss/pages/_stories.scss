@@ -1,0 +1,36 @@
+
+.story-hero{
+.hero-text{
+  background: $black;
+  color: $white;
+  padding: 20px;
+
+  .date-author{
+    gap: 10px;
+    display: flex;
+    margin:1rem 0 2rem 0;
+  }
+ @include media(">phone") {
+  padding:10px 0px 30px 30px;
+  color: $white;
+  background: transparent;
+  position: absolute;
+  margin-top: -35rem;
+  }
+
+  .featured{
+    margin-bottom: 10px;
+  }
+
+  @include media(">phone") {
+    width: 20rem;
+  }
+  @include media(">tablet") {
+    width: 30rem;
+  }
+}
+}
+
+.stories{
+  position: relative;
+}
