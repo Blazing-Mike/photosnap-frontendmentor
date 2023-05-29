@@ -5,8 +5,7 @@ function classToggle() {
 navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
 }
 
-document.querySelector('.Navbar__link-toggle')
-.addEventListener('click', classToggle);
+document.querySelector('.Navbar__link-toggle').addEventListener('click', classToggle);
 
 NavBarToggle.addEventListener('click', function() {
   NavBarToggle.classList.toggle("change");
