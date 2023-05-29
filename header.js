@@ -22,7 +22,6 @@ class Header extends HTMLElement {
           <!--NAVBAR ITEMS/LINKS-->
           <a href="/stories.html" class="Navbar__link">Stories</a>
           <a href="/features.html" class="Navbar__link">Features</a>
-          <a href="/pricing.html" class="Navbar__link">Pricing</a>
           <div class="line"></div>
         </nav>
 
